@@ -1,0 +1,13 @@
+name: LEDStripController
+api-version: "1.21"
+version: "${project.version}"
+author: irPL
+description: A plugin to control the state of an LED strip via HTTP reqests.
+main: com.irpl.ledcontroller.LEDStripController
+commands:
+  startlisten:
+    description: Listen for player movement and report on the color of the wool the player stands on.
+    usage: /startlisten
+  stoplisten:
+    description: Stops listening for player movement.
+    usage: /stoplisten
